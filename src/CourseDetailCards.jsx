@@ -1,8 +1,6 @@
 import React, { useState } from "react";
 
-const CourseDetailCards = ({id,title, description }) => {
-  const[currentCard, setCurrentCard] = useState(id)
-  console.log(currentCard);
+const CourseDetailCards = ({ title, description }) => {
   
   return (
     <div className="relative border-[1px] border-custom-green md:w-[380px] max-md:w[300px] md:h-[390px] max-md:[420px] rounded-[30px] px-4 flex flex-col justify-between mx-auto"
