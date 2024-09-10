@@ -1,6 +1,6 @@
 import React from "react";
 import AboutSchoolCards from "./AboutSchoolCards";
-import aboutCardDetails from "./constants/AboutCardsDetails";
+import aboutCardDetails from "./constants/aboutCardsDetails";
 
 const AboutSchoolContainer = () => {
   return (
